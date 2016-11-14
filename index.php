@@ -21,7 +21,7 @@
       </br>
 -->
       <br/> <br/>
-      <a href="/iOS-Universal-Links/oneapp.html">Samsung OneApp</a>
+      <a href="/iOS-Universal-Links/oneapp.html">OneApp</a>
 
       <footer class="site-footer">
       </footer>
