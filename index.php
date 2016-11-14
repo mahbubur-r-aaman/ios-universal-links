@@ -11,10 +11,8 @@
   </head>
   <body>
     <section class="page-header">
-      <h2 class="project-name">iOS Universal Links</h2>
-      <h5 class="project-tagline">Universal Links, iOS 9 users can tap a link to your website 
-        and get seamlessly redirected to your installed app without going through Safari. 
-        If your app isn’t installed, tapping a link to your website opens your website in Safari.</h5>
+      <h2 class="project-name">iOS Universal Links PoC</h2>
+      <h5 class="project-tagline">This webpage for iOS Universal Link PoC</h5>
  
     </section>
 
