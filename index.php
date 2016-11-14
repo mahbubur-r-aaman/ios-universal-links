@@ -11,15 +11,19 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">iOS Universal Links</h1>
-      <h2 class="project-tagline">Universal Links, iOS 9 users can tap a link to your website and get seamlessly redirected to your installed app without going through Safari. If your app isn’t installed, tapping a link to your website opens your website in Safari.</h2>
+      <h2 class="project-name">iOS Universal Links</h2>
+      <h5 class="project-tagline">Universal Links, iOS 9 users can tap a link to your website 
+        and get seamlessly redirected to your installed app without going through Safari. 
+        If your app isn’t installed, tapping a link to your website opens your website in Safari.</h5>
  
     </section>
 
     <section class="main-content">
-      <a href="/iOS-Universal-Links/home.html">Home</a>
+ <!--     <a href="/iOS-Universal-Links/home.html">Home</a>
       </br>
-      <a href="/iOS-Universal-Links/about.html">About</a>
+-->
+      <br/> <br/>
+      <a href="/iOS-Universal-Links/oneapp.html">Samsung OneApp</a>
 
       <footer class="site-footer">
       </footer>
