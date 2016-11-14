@@ -17,9 +17,9 @@
     </section>
 
     <section class="main-content">
-      <a href="/iOS-Universal-Links/home">Home</a>
+      <a href="/iOS-Universal-Links/home.html">Home</a>
       </br>
-      <a href="/iOS-Universal-Links/about">About</a>
+      <a href="/iOS-Universal-Links/about.html">About</a>
 
       <footer class="site-footer">
       </footer>
