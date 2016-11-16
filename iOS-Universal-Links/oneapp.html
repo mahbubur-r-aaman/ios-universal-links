@@ -3,12 +3,24 @@
   <head>  
     <meta charset="UTF-8">
     <title>iOS Universal Links Demo</title>
-    <meta http-equiv="refresh" content="0; url=https://itunes.apple.com/us/app/smart-home/id885787515?mt=8" />
+    <!-- <meta http-equiv="refresh" content="0; url=https://itunes.apple.com/us/app/smart-home/id885787515?mt=8" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    
+    <SCRIPT LANGUAGE="JavaScript">
+
+function ClipBoard()
+{
+holdtext.innerText = copytext.innerText;
+Copied = holdtext.createTextRange();
+Copied.execCommand("Copy");
+}
+
+</SCRIPT>
+    
   </head>
   <body>
     <section class="page-header">
@@ -16,10 +28,21 @@
       <h5 class="project-tagline">This webpage for iOS Universal Link PoC</h5>
       <br/> <br/> <br/>
     </section>
+    
+    
 
     <section class="main-content">
       <h3>---- OneApp ----</h3>
 
+      <SPAN ID="copytext" STYLE="height:150;width:162;background-color:pink">
+This text will be copied onto the clipboard when you click the button below. Try it!
+</SPAN>
+
+<TEXTAREA ID="holdtext" STYLE="display:none;">
+</TEXTAREA>
+<BUTTON onClick="ClipBoard();">Copy to Clipboard</BUTTON> 
+      
+      
       <footer class="site-footer">
       </footer>
 
