@@ -18,11 +18,11 @@
   $params     = split("/", $request);
   print "param 0: " . $params[0];
       
-  print "\n";
+  print "\r\n";
   
-  print "Request Operating System: " . $_SERVER['HTTP_USER_AGENT'];
+ // print "Request Operating System: " . $_SERVER['HTTP_USER_AGENT'];
       
-    print "\n";
+    print "\r\n";
       
 $iPod    = stripos($_SERVER['HTTP_USER_AGENT'],"iPod");
 $iPhone  = stripos($_SERVER['HTTP_USER_AGENT'],"iPhone");
