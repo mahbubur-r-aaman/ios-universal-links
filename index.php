@@ -17,7 +17,7 @@
   #split the path by '/'
   $params     = split("/", $request);
   print "param 0: " . $params[0];
-  print "parma 1: " . $params[1];
+ // print "parma 1: " . $params[1];
 ?>
       <footer class="site-footer">
       </footer>
