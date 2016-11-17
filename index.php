@@ -17,6 +17,11 @@
   #split the path by '/'
   $params     = split("/", $request);
   print "param 0: " . $params[0];
+      
+  print "\n";
+  
+  print "Request Operating System: " . $_SERVER['HTTP_USER_AGENT'];
+  
  // print "parma 1: " . $params[1];
 ?>
       <footer class="site-footer">
