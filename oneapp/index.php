@@ -4,5 +4,6 @@
  
   #split the path by '/'
   $params     = split("/", $_request);
+  $json_encoded_param = json_encode($params);
   print $params; 
 ?>
