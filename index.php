@@ -21,6 +21,22 @@
   print "\n";
   
   print "Request Operating System: " . $_SERVER['HTTP_USER_AGENT'];
+      
+    print "\n";
+      
+$iPod    = stripos($_SERVER['HTTP_USER_AGENT'],"iPod");
+$iPhone  = stripos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+$iPad    = stripos($_SERVER['HTTP_USER_AGENT'],"iPad");
+$Android = stripos($_SERVER['HTTP_USER_AGENT'],"Android");
+      
+//do something with this information
+if( $iPod || $iPhone || $iPad){
+    print "Request Operating System is : iOS";
+} else if($Android){
+    print "Request Operating System is : Android";
+}else if($webOS){
+    print "Request Operating System is : webOS";
+}
   
  // print "parma 1: " . $params[1];
 ?>
