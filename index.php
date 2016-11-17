@@ -15,7 +15,7 @@
  
   #split the path by '/'
   $params     = split("/", $request);
-  print "<br/> <br/> <p>" . "Universal Linking Parameter: " . $params[0] . "</p>";
+  print "<br/> <br/> <p>" . "Neutral Random Value (Universal Linking Parameter) : " . $params[0] . "</p>"; //  
       
   
   
@@ -39,6 +39,9 @@ if( $iPod || $iPhone || $iPad){
     //print "Request Operating System is : webOS";
     print "<br> <br/> <p>" . "Request Operating System is : Android" . "</p>";
 }
+      
+  $iosRandVal = "ios-random-value-789"; 
+  print "<br/> <br/> <p>" . "iOS Relevant Random Value: " . $iosRandVal . "</p>";
   
  // print "parma 1: " . $params[1];
 ?>
