@@ -15,7 +15,7 @@
  
   #split the path by '/'
   $params     = split("/", $request);
-  print "<br/> <br/> <p>" . "parameter: " . $params[0] . "</p>";
+  print "<br/> <br/> <p>" . "Universal Linking Parameter: " . $params[0] . "</p>";
       
   
   
