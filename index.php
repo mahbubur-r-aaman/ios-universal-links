@@ -16,7 +16,7 @@
  
   #split the path by '/'
   $params     = split("/", $request);
-  print "param 0: " . $params[0];
+  print "<br/> <p>" . "parameter: " . $params[0] . "</p>";
       
   print "\r\n";
   
@@ -31,11 +31,14 @@ $Android = stripos($_SERVER['HTTP_USER_AGENT'],"Android");
       
 //do something with this information
 if( $iPod || $iPhone || $iPad){
-    print "Request Operating System is : iOS";
+   // print "Request Operating System is : iOS";
+    print "<br/> <p>" . "parameter: " . "Request Operating System is : iOS" . "</p>";
 } else if($Android){
-    print "Request Operating System is : Android";
+    //print "Request Operating System is : Android";
+    print "<br/> <p>" . "parameter: " . "Request Operating System is : Android" . "</p>";
 }else if($webOS){
-    print "Request Operating System is : webOS";
+    //print "Request Operating System is : webOS";
+    print "<br/> <p>" . "parameter: " . "Request Operating System is : Android" . "</p>";
 }
   
  // print "parma 1: " . $params[1];
