@@ -43,11 +43,7 @@ if( $iPod || $iPhone || $iPad){
   $iosRandVal = "ios-random-value-789"; 
   print "<br/> <br/> <p>" . "Generated iOS Relevant Random Value: " . $iosRandVal . "</p>";
       
- print " <br/> <br/>    
-   <form>
-     iOS Relevant Random Value: <input type="text" name="iOSRandVal"><br>
-   </form> 
-  "; 
+ print ' <br/> <br/> <form> iOS Relevant Random Value: <input type="text" name="iOSRandVal">'. $iosRandVal . '</input><br></form> '; 
  // print "parma 1: " . $params[1];
 ?>
       <footer class="site-footer">
