@@ -45,6 +45,8 @@ if( $iPod || $iPhone || $iPad){
       
  print ' <br/> <br/> <form> Just Copy the text, you will be directed to OneApp: <input type="text" name="iOSRandVal" value = '. $iosRandVal . ' </input><br></form> '; 
  // print "parma 1: " . $params[1];
+      
+  print "<br/> <br/> <p>" . "<a href='https://itunes.apple.com/us/app/smart-home/id885787515?mt=8'> Open this app in AppStore </a> ". "</p>";  
 ?>
       <footer class="site-footer">
       </footer>
