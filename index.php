@@ -15,7 +15,7 @@
  
   #split the path by '/'
   $params     = split("/", $request);
-  print "<br/> <br/> <p>" . "Neutral Random Value (Universal Linking Parameter) : " . $params[0] . "</p>"; //  
+  print "<br/> <br/> <p>" . "Parameter from Email : " . $params[0] . "</p>"; //  
       
   
   
@@ -41,9 +41,9 @@ if( $iPod || $iPhone || $iPad){
 }
       
   $iosRandVal = "pqrs4567"; 
-  print "<br/> <br/> <p>" . "Generated iOS Relevant Random Value: " . $iosRandVal . "</p>";
+  print "<br/> <br/> <p>" . "Parameter for iOS User: " . $iosRandVal . "</p>";
       
- print ' <br/> <br/> <form> iOS Relevant Random Value: <input type="text" name="iOSRandVal" value = '. $iosRandVal . ' </input><br></form> '; 
+ print ' <br/> <br/> <form> Just Copy the text, you will be directed to OneApp: <input type="text" name="iOSRandVal" value = '. $iosRandVal . ' </input><br></form> '; 
  // print "parma 1: " . $params[1];
 ?>
       <footer class="site-footer">
