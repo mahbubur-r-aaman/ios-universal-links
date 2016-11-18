@@ -40,7 +40,7 @@ if( $iPod || $iPhone || $iPad){
     print "<br> <br/> <p>" . "Request Operating System is : Android" . "</p>";
 }
       
-  $iosRandVal = "ios-random-value-789"; 
+  $iosRandVal = "pqrs4567"; 
   print "<br/> <br/> <p>" . "Generated iOS Relevant Random Value: " . $iosRandVal . "</p>";
       
  print ' <br/> <br/> <form> iOS Relevant Random Value: <input type="text" name="iOSRandVal" value = '. $iosRandVal . ' </input><br></form> '; 
