@@ -48,12 +48,9 @@ if( $iPod || $iPhone || $iPad){
       
 //  print "<br/> <br/> <p>" . "<a href='https://itunes.apple.com/us/app/smart-home/id885787515?mt=8'> Open this app in AppStore </a> ". "</p>";  
 
-      //print "<br/> <br/> <p>" . "<a href='https://itunes.apple.com/us/app/smart-home/id885787515?mt=8'> View Invite </a> ". "</p>"; 
+      print "<br/> <br/> <p>" . "<a href='https://iosuni.herokuapp.com/viewinvite.php'> View Invite </a> ". "</p>"; 
       ?>
       
-    <form action = "viewinvite.php" method = "post">
-        <input type="submit" name="vinvite" value="View Invite" />
-    </form>
       
       <footer class="site-footer">
       </footer>
