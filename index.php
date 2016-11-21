@@ -15,7 +15,7 @@
  
   #split the path by '/'
   $params     = split("/", $request);
-  print "<br/> <br/> <p>" . "Parameter from Email : " . $params[0] . "</p>"; //  
+  print "<br/> <br/> <p>" . "Parameter from Email (N-Link) : " . $params[0] . "</p>"; //  
       
   
   
@@ -43,11 +43,18 @@ if( $iPod || $iPhone || $iPad){
   $iosRandVal = "pqrs4567"; 
   print "<br/> <br/> <p>" . "Parameter for iOS User: " . $iosRandVal . "</p>";
       
- print ' <br/> <br/> <form> Just Copy the text, you will be directed to OneApp: <input type="text" name="iOSRandVal" value = '. $iosRandVal . ' </input><br></form> '; 
+// print ' <br/> <br/> <form> Just Copy the text, you will be directed to OneApp: <input type="text" name="iOSRandVal" value = '. $iosRandVal . ' </input><br></form> '; 
  // print "parma 1: " . $params[1];
       
-  print "<br/> <br/> <p>" . "<a href='https://itunes.apple.com/us/app/smart-home/id885787515?mt=8'> Open this app in AppStore </a> ". "</p>";  
-?>
+//  print "<br/> <br/> <p>" . "<a href='https://itunes.apple.com/us/app/smart-home/id885787515?mt=8'> Open this app in AppStore </a> ". "</p>";  
+
+      //print "<br/> <br/> <p>" . "<a href='https://itunes.apple.com/us/app/smart-home/id885787515?mt=8'> View Invite </a> ". "</p>"; 
+      ?>
+      
+    <form action = "viewinvite.php" method = "post">
+        <input type="submit" name="vinvite" value="View Invite" />
+    </form>
+      
       <footer class="site-footer">
       </footer>
 
