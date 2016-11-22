@@ -29,26 +29,39 @@ $iPad    = stripos($_SERVER['HTTP_USER_AGENT'],"iPad");
 $Android = stripos($_SERVER['HTTP_USER_AGENT'],"Android");
       
 //do something with this information
+      
+     $p = "temp";
+      
 if( $iPod || $iPhone || $iPad){
    // print "Request Operating System is : iOS";
     print "<br/> <br/> <p>". "Request Operating System is : iOS" . "</p>";
+    $p = "i";
 } else if($Android){
     //print "Request Operating System is : Android";
     print "<br/> <br/> <p>". "Request Operating System is : Android" . "</p>";
+    $p = "a";
 }else if($webOS){
     //print "Request Operating System is : webOS";
     print "<br> <br/> <p>" . "Request Operating System is : Android" . "</p>";
 }
+ $randVal = "temp";
+      if ($p == "i") {
+  $randVal = "i-pqrs4567"; 
+  print "<br/> <br/> <p>" . "Parameter for iOS User: " . $randVal . "</p>";
       
- // $iosRandVal = "pqrs4567"; 
- // print "<br/> <br/> <p>" . "Parameter for iOS User: " . $iosRandVal . "</p>";
+      }
       
+      else if ($p == "a") {
+        $randVal = "a-pqrs4567"; 
+  print "<br/> <br/> <p>" . "Parameter for Android User: " . $randVal . "</p>";
+    
+      }
 // print ' <br/> <br/> <form> Just Copy the text, you will be directed to OneApp: <input type="text" name="iOSRandVal" value = '. $iosRandVal . ' </input><br></form> '; 
  // print "parma 1: " . $params[1];
       
 //  print "<br/> <br/> <p>" . "<a href='https://itunes.apple.com/us/app/smart-home/id885787515?mt=8'> Open this app in AppStore </a> ". "</p>";  
 
-      print "<br/> <br/> <p>" . "<a href='http://iosuni.herokuapp.com/viewinvite.php'> View Invite </a> ". "</p>"; 
+      print "<br/> <br/> <p>" . "<a href='http://iosuni.herokuapp.com/viewinvite.php&val=" . $randVal . "'> View Invite </a> ". "</p>"; 
       ?>
       
       
