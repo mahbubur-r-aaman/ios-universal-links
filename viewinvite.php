@@ -56,7 +56,7 @@ if( $iPod || $iPhone || $iPad){
       
       
     //<form action = "viewinvite.php" method = "post">
-        print "<br/> <br/> <p>" . "<a href='https://iosuni.herokuapp.com/install.php'> Install </a> ". "</p>";
+        print "<br/> <br/> <p>" . "<a href='install.php'> Install </a> ". "</p>";
         print "<br/> <br/> <p>" . "<a href='https://iosuni.herokuapp.com/u/pqrs4567'> Open </a> ". "</p>"; 
     //</form>
       ?>
