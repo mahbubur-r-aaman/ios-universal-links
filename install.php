@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    <script type="text/javascript">
+    document.addEventListener("copy", function() {
+    location = "https://itunes.apple.com/us/app/smart-home/id885787515?mt=8";
+   }, false);
+    </script>
   </head>
   <body>
     <section class="page-header">
@@ -8,6 +13,8 @@
 
     <section class="main-content">
     <br/> <br/>
+      
+      
       
 <?php
       
