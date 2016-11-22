@@ -64,7 +64,7 @@ if( $iPod || $iPhone || $iPad){
       
 //  print "<br/> <br/> <p>" . "<a href='https://itunes.apple.com/us/app/smart-home/id885787515?mt=8'> Open this app in AppStore </a> ". "</p>";  
 
-      print "<br/> <br/> <p>" . "<a href='http://iosuni.herokuapp.com/viewinvite.php'> View Invite </a> ". "</p>"; 
+      print "<br/> <br/> <p>" . "<a href='viewinvite.php'> View Invite </a> ". "</p>"; 
       ?>
       
       
