@@ -40,8 +40,8 @@ if( $iPod || $iPhone || $iPad){
     print "<br> <br/> <p>" . "Request Operating System is : Android" . "</p>";
 }
       
-  $iosRandVal = "pqrs4567"; 
-  print "<br/> <br/> <p>" . "Parameter for iOS User: " . $iosRandVal . "</p>";
+ // $iosRandVal = "pqrs4567"; 
+ // print "<br/> <br/> <p>" . "Parameter for iOS User: " . $iosRandVal . "</p>";
       
 // print ' <br/> <br/> <form> Just Copy the text, you will be directed to OneApp: <input type="text" name="iOSRandVal" value = '. $iosRandVal . ' </input><br></form> '; 
  // print "parma 1: " . $params[1];
