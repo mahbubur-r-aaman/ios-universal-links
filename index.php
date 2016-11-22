@@ -46,7 +46,7 @@ if( $iPod || $iPhone || $iPad){
 }
  $randVal = "temp";
       if ($p == "i") {
-  $randVal = "i-pqrs4567"; 
+  $randVal = "pqrs4567"; 
   print "<br/> <br/> <p>" . "Parameter for iOS User: " . $randVal . "</p>";
       
       }
