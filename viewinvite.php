@@ -52,6 +52,8 @@ if( $iPod || $iPhone || $iPad){
   print "<br/> <br/> <p>" . "Parameter for iOS User: " . $iosRandVal . "</p>";
   print "<br/> <br/> <p>" . "iOS Universal Link (U-Link): https://iosuni.herokuapp.com/u/" . $iosRandVal . "</p>";
       
+ 
+      
 // print ' <br/> <br/> <form> Just Copy the text, you will be directed to OneApp: <input type="text" name="iOSRandVal" value = '. $iosRandVal . ' </input><br></form> '; 
  // print "parma 1: " . $params[1];
       
@@ -61,10 +63,18 @@ if( $iPod || $iPhone || $iPad){
       
       
     //<form action = "viewinvite.php" method = "post">
-        print "<br/> <br/> <p>" . "<a href='install.php'> Install </a> ". "</p>";
-        print "<br/> <br/> <p>" . "<a href='https://iosuni.herokuapp.com/u/pqrs4567' id='idopen'>Open</a> ". "</p>"; 
-    //</form>
-      ?>
+      
+  ?>
+      
+    <br>
+    
+        <a href="https://iosuni.herokuapp.com/install.php">Install</a>
+    <br>
+    
+        <a href="https://iosuni.herokuapp.com/u/pqrs4567" id="idopen">Open</a>
+      
+ 
+
       
       <footer class="site-footer">
       </footer>
