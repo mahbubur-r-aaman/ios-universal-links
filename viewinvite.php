@@ -80,7 +80,7 @@ if( $iPod || $iPhone || $iPad){
         <a href="http://iosuni.herokuapp.com/install.php">Install</a>
     <br>
     
-        <a href="https://iosuni.herokuapp.com/u/pqrs4567" id="idopen" onclick="return confirm('Want to opne OneApp?')" >Open</a>
+        <a href="https://iosuni.herokuapp.com/u/pqrs4567" id="idopen" onclick="return confirm('Want to open OneApp?')" >Open</a>
       
  
 
