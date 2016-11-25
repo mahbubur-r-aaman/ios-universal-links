@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <script type="text/javascript">
-        document.getElementById("specialLink").onclick = function() {
+        document.getElementById("idopen").onclick = function() {
           alert("Wanna open OneApp?");
       }
     </script>
