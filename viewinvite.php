@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    <script type="text/javascript">
+      var links = document.getElementsByClassName("openalert");
+      links[0].onclick = function() {
+        alert("Want to open OneApp");
+        // put your click handling code here
+        // return(false) if you don't want default click behavior for the link
+      }
+    </script>
   </head>
   <body>
     <section class="page-header">
@@ -57,7 +65,7 @@ if( $iPod || $iPhone || $iPad){
       
     //<form action = "viewinvite.php" method = "post">
         print "<br/> <br/> <p>" . "<a href='install.php'> Install </a> ". "</p>";
-        print "<br/> <br/> <p>" . "<a href='https://iosuni.herokuapp.com/u/pqrs4567'> Open </a> ". "</p>"; 
+        print "<br/> <br/> <p>" . "<a href='https://iosuni.herokuapp.com/u/pqrs4567' class='openalert'>Open</a> ". "</p>"; 
     //</form>
       ?>
       
