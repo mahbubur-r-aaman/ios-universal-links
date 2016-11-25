@@ -2,9 +2,18 @@
 <html lang="en-us">
   <head>
     <script type="text/javascript">
-        document.getElementById("idopen").onclick = function() {
-          alert("Wanna open OneApp?");
-      }
+       var Anchors = document.getElementsByTagName("a");
+
+       for (var i = 0; i < Anchors.length ; i++) {
+        Anchors[i].addEventListener("click", 
+        function (event) {
+            event.preventDefault();
+            if (confirm('Want to open OneApp?')) {
+                window.location = this.href;
+            }
+        }, 
+        false);
+}
     </script>
   </head>
   <body>
@@ -71,7 +80,7 @@ if( $iPod || $iPhone || $iPad){
         <a href="http://iosuni.herokuapp.com/install.php">Install</a>
     <br>
     
-        <a href="https://iosuni.herokuapp.com/u/pqrs4567" id="idopen">Open</a>
+        <a href="https://iosuni.herokuapp.com/u/pqrs4567" id="idopen" onclick="return confirm('Want to opne OneApp?')" >Open</a>
       
  
 
